@@ -1,0 +1,4 @@
+## Update fonts
+```bash
+make
+```

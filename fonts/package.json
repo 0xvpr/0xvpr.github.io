@@ -1,0 +1,15 @@
+{
+  "name": "0xvpr-io-fonts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp -R node_modules/@fontsource/* ../overrides/fonts"
+  },
+
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fontsource/courier-prime": "^4.5.1"
+  }
+}

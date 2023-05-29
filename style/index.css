@@ -1,0 +1,97 @@
+html,body {
+    font-family: "Courier New", Courier, monospace;
+    height: 95%;
+    background: #050505;
+}
+
+#player_cont {
+    font-family: "Courier New", Courier, monospace;
+    text-decoration: none;
+}
+
+#snip_content_cell {
+    text-decoration: none;
+    text-align: left;
+    vertical-align: middle;
+    color: #ffffff;
+    width: 30em;
+    height: 97%;
+}
+
+.snip_link {
+    /* text-decoration: none; */
+    color: #ffffff;
+    font-size:1.0em;
+}
+
+#snip_index_cell {
+    text-align: center;
+    vertical-align:top;
+    height:4em; color: #eeeeee;
+}
+
+#next_cell,#prev_cell {
+    text-align: center;
+    vertical-align:top;
+}
+
+#catalog_cell, #github_cell,#contact_cell {
+    text-align: center;
+    vertical-align:top;
+    width: 33%;
+    white-space: nowrap;
+}
+
+#section_cell {
+    text-align: center;
+    vertical-align:top;
+    white-space: nowrap;
+    color:#eeeeee;
+}
+
+#lower_table {
+    height: 97%;
+}
+
+#lower_links_table {
+    width: 97%;
+}
+
+#upper_table {
+    height: 5%;
+}
+
+#lower_menu_cell {
+    text-align: center;
+}
+
+#copyright_cell {
+    color: #333333;
+    text-align: center;
+
+}
+
+a:hover {
+    color: #41B2EA;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre {
+    font-size: 1.2em;
+}
+
+.menu_link {
+    /* .link_next_prev,.return_link { */
+    color: #8f8f8f;
+    font-size:1.0em;
+    /* text-decoration:none; */
+}
+
+.link_disabled {
+    color: #262626;
+    font-size:1.0em;
+}
