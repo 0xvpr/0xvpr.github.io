@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style/index.css"/>
     <link rel="stylesheet" href="style/prism.css"/>
+    <link rel="icon" href="images/viper.ico"/>
     <title>VPR - EntryPoint</title>
   </head>
   <body>
@@ -41,7 +42,8 @@
         <table>
           <tr>
             <td>
-              <md-block>
+              <div class="main_content">
+                <md-block>
 ## Pure Syscalls
 ```nasm
 KrnlGetStdHandle:
@@ -50,7 +52,8 @@ KrnlGetStdHandle:
     mov     rax, [rcx + 0x28]
     ret
 ```
-              </md-block>
+                </md-block>
+              </div>
             </td>
           </tr>
         </table>
